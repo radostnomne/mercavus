@@ -4,6 +4,9 @@ node_js:
   - 'node'
   - '12'
 
+script:
+  - npm run serve
+
 branches:
   only:
   - master
